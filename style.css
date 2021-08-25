@@ -1,0 +1,21 @@
+/*Tags*/
+
+p{
+    font-family: helvetica;
+    text-align: center;
+}
+
+h1{
+    font-family: helvetica;
+    text-align: center;
+}
+
+
+
+/* IDs */
+
+#div1 {
+    width: 258px;
+    margin: 0 auto;
+}
+
