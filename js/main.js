@@ -10,10 +10,11 @@ function consultaCep() {
         type: "GET",
         success: function (response) {
             console.log(response);
-            $("#logradouro").html("Logradouro: " + response.logradouro);
-            $("#bairro").html("Bairro: " + response.bairro);
-            $("#localidade").html("Cidade: " + response.localidade);
-            $("#uf").html("Estado: " + response.uf);
+            $("#logradouro").html(response.logradouro);
+            $("#bairro").html(response.bairro);
+            $("#localidade").html(response.localidade);
+            $("#uf").html(response.uf);
+            $("#titulo_cep").html("CEP " + response.cep);
 
             // Outra forma
 
