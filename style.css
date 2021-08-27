@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*Tags*/
 
 p{
@@ -19,27 +18,3 @@ h1{
     width: 258px;
     margin: 0 auto;
 }
-
-=======
-/*Tags*/
-
-p{
-    font-family: helvetica;
-    text-align: center;
-}
-
-h1{
-    font-family: helvetica;
-    text-align: center;
-}
-
-
-
-/* IDs */
-
-#div1 {
-    width: 258px;
-    margin: 0 auto;
-}
-
->>>>>>> f7ee967bf7aa38f99adac1cc47dba5810433b733
